@@ -44,7 +44,7 @@ export default function KaderLayout() {
               <span><b>{KADER.nama}</b><small>{KADER.peran}</small></span>
               <Img name="caret" />
             </button>
-            {menu && <div className="kuser-menu" role="menu"><button type="button" role="menuitem" onClick={() => navigate('/login')}>Keluar</button></div>}
+            {menu && <div className="kuser-menu" role="menu"><button type="button" role="menuitem" onClick={() => navigate('/kader/login')}>Keluar</button></div>}
           </div>
         </header>
         <main className="kcontent"><Outlet /></main>

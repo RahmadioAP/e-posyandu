@@ -3,6 +3,7 @@ import Landing from './pages/Landing.jsx'
 import Login from './pages/Login.jsx'
 import Register from './pages/Register.jsx'
 import KaderLayout from './kader/KaderLayout.jsx'
+import { KaderLogin, KaderDaftar } from './kader/KaderAuth.jsx'
 import Beranda from './kader/Beranda.jsx'
 import DaftarIbu from './kader/DaftarIbu.jsx'
 import DetailIbu from './kader/DetailIbu.jsx'
@@ -17,6 +18,8 @@ export default function App() {
       <Route path="/" element={<Landing />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
+      <Route path="/kader/login" element={<KaderLogin />} />
+      <Route path="/kader/daftar" element={<KaderDaftar />} />
       <Route path="/kader" element={<KaderLayout />}>
         <Route index element={<Beranda />} />
         <Route path="ibu-hamil" element={<DaftarIbu />} />

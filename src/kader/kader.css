@@ -453,3 +453,62 @@
   .ktable-scroll,.ktable-wrap,.rekap{overflow-x:auto}
   .filters.lap,.kfilters.lap{flex-direction:column;align-items:stretch}
 }
+
+/* Login & Sign up Kader (frame "Login — E-Posyandu" & "Sign up — E-Posyandu") */
+.ka{display:grid;grid-template-columns:600fr 840fr;min-height:100vh;font-family:var(--jakarta);color:#191c21;background:#fff}
+.ka-side{background:#f9f9ff;padding:52px 56px 44px;display:flex;flex-direction:column;justify-content:space-between;gap:40px}
+.ka-brand{position:relative;display:flex;align-items:center;gap:8px;height:70px;border-bottom:1px solid rgba(194,198,212,.3);font-size:48px;font-weight:600;line-height:56px;color:#004d99}
+.ka-brand img{width:67px;height:67px}
+.ka-expand{position:absolute;right:-12px;top:28px;padding:4px;background:#fff;border:1px solid #e2e8f0;border-radius:10px;display:flex}
+.ka-expand img{width:16px;height:16px}
+.ka-intro{display:flex;flex-direction:column;gap:18px}
+.ka-label{align-self:flex-start;background:#ddfce5;color:#006d30;border-radius:999px;padding:6px 12px;font-size:11px;font-weight:600;line-height:17px}
+.ka-intro h2{font-size:36px;line-height:54px;font-weight:700;color:#004d99}
+.ka-intro>p{font-size:15px;line-height:23px;color:#424752;max-width:470px}
+.ka-steps{background:#fff;border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:22px;margin-top:10px}
+.ka-steps h3{font-size:16px;line-height:24px;font-weight:600;color:#191c21}
+.ka-step{display:flex;gap:14px;align-items:flex-start}
+.ka-step>span{background:#d6e3ff;color:#004d99;border-radius:8px;padding:8px 10px;font-size:12px;font-weight:700;line-height:18px}
+.ka-step b{display:block;font-size:14px;font-weight:600;line-height:21px}
+.ka-step small{display:block;font-size:12px;line-height:18px;color:#424752;margin-top:3px}
+.ka-privacy{display:flex;flex-direction:column;gap:8px;font-size:12px;line-height:18px;color:#424752}
+.ka-privacy b{font-weight:600;color:#004d99}
+.ka-form{padding:48px 40px 40px;display:flex;flex-direction:column;justify-content:space-between;gap:40px}
+.ka-form>*{width:100%;max-width:480px;margin-inline:auto}
+.ka-help{text-align:right;font-size:12px;line-height:18px;color:#424752}
+.ka-help a,.ka-opts a,.ka-switch a{color:#004d99;font-weight:600}
+.ka-card{display:flex;flex-direction:column;gap:28px}
+.ka-card.sm{gap:22px}
+.ka-head{display:flex;flex-direction:column;gap:10px}
+.ka-eyebrow{font-size:11px;font-weight:600;line-height:17px;color:#004d99}
+.ka-head h1{font-size:30px;line-height:45px;font-weight:700;color:#191c21}
+.ka-head>p:last-child{font-size:14px;line-height:21px;color:#424752}
+.ka-fields{display:flex;flex-direction:column;gap:22px}
+.ka-card.sm .ka-fields{gap:16px}
+.ka-field{display:flex;flex-direction:column;gap:8px;font-size:13px;font-weight:600;line-height:20px}
+.ka-input{display:flex;align-items:center;height:48px;border:1px solid #c2c6d4;border-radius:8px;padding:0 14px;gap:8px;font-weight:400}
+.ka-input:focus-within{outline:2px solid var(--p400);outline-offset:-1px}
+.ka-input input{flex:1;min-width:0;border:0;outline:none;background:none;font:inherit;font-size:14px;line-height:21px;color:#191c21}
+.ka-input input::placeholder{color:#424752}
+.ka-input button{border:0;background:none;color:#004d99;font:inherit;font-size:12px;font-weight:600;cursor:pointer;padding:4px}
+.ka-opts{display:flex;justify-content:space-between;align-items:center;font-size:12px;line-height:18px}
+.ka-check{display:flex;align-items:center;gap:10px;font-size:12px;line-height:18px;color:#424752;cursor:pointer}
+.ka-check.top{align-items:flex-start}
+.ka-check input{width:18px;height:18px;margin:0;accent-color:#004d99;flex:none}
+.ka-actions{display:flex;flex-direction:column;gap:16px}
+.ka-submit{height:50px;border:0;border-radius:8px;background:#004d99;color:#fff;font:inherit;font-size:14px;font-weight:600;cursor:pointer}
+.ka-submit:hover{background:#003f7d}
+.ka-submit:focus-visible{outline:4px solid rgba(21,101,192,.35)}
+.ka-switch{text-align:center;font-size:13px;line-height:20px;color:#424752}
+.ka-note{background:#f3f3fc;border-radius:8px;padding:12px 14px;font-size:12px;line-height:18px;color:#424752}
+.ka-foot{text-align:center;font-size:11px;line-height:17px;color:#424752}
+
+@media(max-width:860px){
+  .ka{grid-template-columns:1fr}
+  .ka-side{padding:24px 16px;gap:24px}
+  .ka-intro,.ka-privacy,.ka-expand{display:none}
+  .ka-brand{font-size:32px;height:56px}.ka-brand img{width:48px;height:48px}
+  .ka-form{padding:24px 16px}
+  .ka-head h1{font-size:24px;line-height:34px}
+  .ka-head br,.ka-note br,.ka-check br{display:none}
+}
