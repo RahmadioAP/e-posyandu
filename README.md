@@ -1,2 +1,3 @@
-# e-posyandu
-Website E-Posyandu Desa Sukamaju berbasis React: landing page, login, dan registrasi untuk memantau kesehatan ibu hamil dan balita. Tugas Group Challenge Frontend Development.
+# E-Posyandu (React + Vite)
+Halaman: `/` Landing Page, `/login` Login, `/register` Registrasi.
+Jalankan: `npm install` lalu `npm run dev`.
