@@ -1,0 +1,16 @@
+<svg overflow="visible" style="display: block;" width="20.25" height="20.25" viewBox="0 0 20.25 20.25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Icon">
+<g id="Vector">
+<use xlink:href="#stroke0_0_80" fill="#A64C00"/>
+<mask id="stroke1_0_80" fill="white">
+<use xlink:href="#stroke0_0_80"/>
+</mask>
+<path d="M10.9688 14.3438C10.9688 14.8097 10.591 15.1875 10.125 15.1875C9.65901 15.1875 9.28125 14.8097 9.28125 14.3438C9.28125 13.8778 9.65901 13.5 10.125 13.5C10.591 13.5 10.9688 13.8778 10.9688 14.3438Z" stroke-width="3.375" stroke="#A64C00" mask="url(#stroke1_0_80)"/>
+</g>
+<path id="Vector_2" d="M10.125 8.4375V11.8125" stroke-width="1.6875" stroke-linecap="round" stroke-linejoin="round" stroke="#A64C00"/>
+<path id="Vector_3" d="M2.90859 15.2766L8.61562 3.86244C9.23754 2.61867 11.0125 2.61868 11.6344 3.86244L17.3414 15.2766C17.9024 16.3986 17.0865 17.7188 15.832 17.7188H4.41793C3.16347 17.7188 2.34757 16.3986 2.90859 15.2766Z" stroke-width="1.6875" stroke-linecap="round" stroke-linejoin="round" stroke="#A64C00"/>
+</g>
+<defs>
+<path id="stroke0_0_80" d="M10.125 15.1875C10.591 15.1875 10.9688 14.8097 10.9688 14.3438C10.9688 13.8778 10.591 13.5 10.125 13.5C9.65901 13.5 9.28125 13.8778 9.28125 14.3438C9.28125 14.8097 9.65901 15.1875 10.125 15.1875Z"/>
+</defs>
+</svg>

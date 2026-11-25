@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20" fill="none">
+<g id="warning">
+<g id="Vector">
+<use xlink:href="#stroke0_35_28" fill="#A64C00" />
+<mask id="stroke1_35_28" fill="white">
+<use xlink:href="#stroke0_35_28" />
+</mask>
+<path d="M10.8332 14.1667C10.8332 14.6269 10.4601 15 9.99984 15C9.5396 15 9.1665 14.6269 9.1665 14.1667C9.1665 13.7065 9.5396 13.3334 9.99984 13.3334C10.4601 13.3334 10.8332 13.7065 10.8332 14.1667Z" stroke-width="3.375" stroke="#A64C00" mask="url(#stroke1_35_28)" />
+</g>
+<path id="Vector_2" d="M10 8.33337V11.6667" stroke-width="1.6875" stroke-linecap="round" stroke-linejoin="round" stroke="#A64C00" />
+<path id="Vector_3" d="M2.87244 15.088L8.50901 3.81474C9.12326 2.58633 10.8763 2.58633 11.4905 3.81474L17.1271 15.088C17.6812 16.1962 16.8753 17.5 15.6363 17.5H4.36315C3.12418 17.5 2.31835 16.1962 2.87244 15.088Z" stroke-width="1.6875" stroke-linecap="round" stroke-linejoin="round" stroke="#A64C00" />
+</g>
+<defs>
+<path id="stroke0_35_28" d="M9.99984 15C10.4601 15 10.8332 14.6269 10.8332 14.1667C10.8332 13.7065 10.4601 13.3334 9.99984 13.3334C9.5396 13.3334 9.1665 13.7065 9.1665 14.1667C9.1665 14.6269 9.5396 15 9.99984 15Z" />
+</defs>
+</svg>
