@@ -126,7 +126,7 @@ export function PemeriksaanModal({ jenis, edit, onClose }) {
   )
 }
 
-export function PemeriksaanDetail({ jenis = 'Balita', onClose, onEdit }) {
+export function PemeriksaanDetail({ jenis = 'Balita', onClose, onEdit, readOnly }) {
   const [editing, setEditing] = useState(false)
   if (editing) return <PemeriksaanModal edit jenis={jenis} onClose={onClose} />
   const balita = jenis === 'Balita'
@@ -138,7 +138,7 @@ export function PemeriksaanDetail({ jenis = 'Balita', onClose, onEdit }) {
       <>
         <span className="req-note">Data kunjungan tersimpan</span>
         <button type="button" className="kbtn ghost" onClick={onClose}>Tutup</button>
-        <button type="button" className="kbtn dark" onClick={() => (onEdit ? onEdit() : setEditing(true))}>Edit Pemeriksaan</button>
+        {!readOnly && <button type="button" className="kbtn dark" onClick={() => (onEdit ? onEdit() : setEditing(true))}>Edit Pemeriksaan</button>}
       </>
     }>
       <div className="det">

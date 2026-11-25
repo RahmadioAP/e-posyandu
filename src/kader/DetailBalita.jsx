@@ -9,7 +9,7 @@ import { balita, riwayatBalita } from './data.js'
 const X = (m) => 80 + (m - 10) * 80
 const Y = (kg) => 196 - (kg - 8) * 40
 const plot = [[10, 7.6], [11, 8.1], [12, 8.4], [13, 8.4], [14, 8.4], [14.6, 8.35]]
-function Kms() {
+export function Kms() {
   return (
     <svg viewBox="0 0 520 248" className="kms" role="img" aria-label="Grafik KMS berat badan menurut usia, 10 sampai 15 bulan">
       <path d={`M40 ${Y(10.3)} L520 ${Y(12.2)} L520 ${Y(9.6)} L40 ${Y(8.7)}Z`} fill="#cfe7da" />

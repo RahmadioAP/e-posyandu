@@ -34,10 +34,10 @@ export function Metric({ icon, label, value, unit, note, tag, tone = 'blue', ale
   )
 }
 
-export function RiwayatTable({ head, rows, total, onView }) {
+export function RiwayatTable({ head, rows, total, onView, title = 'Riwayat Kunjungan & Pemeriksaan', id }) {
   return (
-    <section className="kcard riwayat-card">
-      <div className="riwayat-head"><h2>Riwayat Kunjungan &amp; Pemeriksaan</h2><span className="chip">Total {total} Kunjungan Terdata</span></div>
+    <section className="kcard riwayat-card" id={id}>
+      <div className="riwayat-head"><h2>{title}</h2><span className="chip">Total {total} Kunjungan Terdata</span></div>
       <div className="ktable-scroll">
         <table className="ktable plain">
           <thead><tr>{head.map((h) => <th key={h}>{h}</th>)}<th>Aksi</th></tr></thead>
