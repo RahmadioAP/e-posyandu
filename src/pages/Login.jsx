@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom'
 import { BluePanel, Tabs, PasswordInput } from './AuthShell.jsx'
 import icAlarm from '../assets/ic-alarm.svg'
 import icShieldLock from '../assets/ic-shield-lock.svg'
@@ -7,6 +8,7 @@ import icLock from '../assets/ic-lock.svg'
 import icArrow from '../assets/ic-arrow-right.svg'
 
 export default function Login() {
+  const navigate = useNavigate()
   return (
     <main className="auth">
       <div className="auth-card">
@@ -28,7 +30,8 @@ export default function Login() {
               </div>
               <button type="button" className="otp-btn">Kirim Kode OTP</button>
             </div>
-            <form className="stack" onSubmit={(e) => e.preventDefault()}>
+            {/* shortcut: belum ada autentikasi, submit langsung ke dashboard kader */}
+            <form className="stack" onSubmit={(e) => { e.preventDefault(); navigate('/kader') }}>
               <div className="field">
                 <label htmlFor="ident">Nomor WhatsApp atau NIK Ibu / KK</label>
                 <div className="input"><img src={icIdcard} alt="" /><input id="ident" placeholder="Masukkan NIK 16 digit atau No. WhatsApp" autoComplete="username" /></div>
